@@ -3,9 +3,7 @@ import cars from "../api/cars-list.json";
 
 const Cars = () => {
   let [carsList, setCarsList] = useState(cars);
-  // let [selectedBrand, setSelectedBrand] = useState("");
   let [models, setModels] = useState([]);
-  // let [selectedModel, setSelectedModel] = useState("");
   let [input, setInput] = useState({
     selectedBrand: "",
     selectedModel: "",
